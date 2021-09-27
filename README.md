@@ -11,7 +11,14 @@ Measure temperature and humidity using HTU21, post it as a HTTP request to a Nod
 
 ## Wiring
 
-please refer to your manufacturer website
+If you're using NodeMCU:
+
+- CL => D2
+- DA => D1
+- \+  => 3v3
+- \-  => GND
+
+If not, please refer to your manufacturer website for more specific pinouts.
 
 ## Why
 
